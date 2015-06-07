@@ -1,0 +1,32 @@
+{
+  "name": "glitchmesh-hub",
+  "version": "1.0.0",
+  "description": "Glitchmesh hub",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "forever": "forever --minUptime 2000 --spinSleepTime 10000 index.js",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glitchmesh/hub.git"
+  },
+  "keywords": [
+    "glitchmesh"
+  ],
+  "author": "Caleb Troughton <caleb@imakewebthings.com> (http://imakewebthings.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glitchmesh/hub/issues"
+  },
+  "homepage": "https://github.com/glitchmesh/hub#readme",
+  "devDependencies": {
+    "standard": "^4.0.1"
+  },
+  "dependencies": {
+    "forever": "^0.14.1",
+    "nconf": "^0.7.1",
+    "ws": "^0.7.2"
+  }
+}
