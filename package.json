@@ -4,8 +4,8 @@
   "description": "Glitchmesh hub",
   "main": "index.js",
   "scripts": {
-    "pre-commit": "npm test",
-    "pre-push": "npm test",
+    "precommit": "npm test",
+    "prepush": "npm test",
     "start": "node index.js",
     "forever": "forever --minUptime 2000 --spinSleepTime 10000 index.js",
     "test": "standard"

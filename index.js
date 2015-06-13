@@ -31,7 +31,7 @@ function handleMessage (message) {
   }
 }
 
-function registerChannel(socket, channel) {
+function registerChannel (socket, channel) {
   if (channel.indexOf('sender') > -1) {
     socket.sender = true
     console.log('sender registered')
